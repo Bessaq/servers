@@ -13,7 +13,7 @@
   ],
   "files": [],
   "scripts": {
-    "build": "npm run build --workspaces",
+    "build": "tsc",
     "watch": "npm run watch --workspaces",
     "publish-all": "npm publish --workspaces --access public",
     "link-all": "npm link --workspaces"
